@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'json-loader' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of /Users/ryanfarrell/Documents/word-frequency/package.json
+5 warn package.json vue-loader-example@2.0.0 No repository field.
+6 warn package.json vue-loader-example@2.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-core/package.json
+8 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-plugin-transform-runtime/package.json
+10 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-preset-es2015/package.json
+11 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-preset-stage-0/package.json
+12 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/babel-runtime/package.json
+13 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/coffee-loader/package.json
+14 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/coffee-script/package.json
+15 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/cross-env/package.json
+16 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/css-loader/package.json
+17 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/file-loader/package.json
+18 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/fs/package.json
+19 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/jade/package.json
+20 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/jade-loader/package.json
+21 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader/package.json
+22 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/style-loader/package.json
+23 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/stylus-loader/package.json
+24 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/template-html-loader/package.json
+25 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/vue/package.json
+26 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/vue-hot-reload-api/package.json
+27 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/vue-html-loader/package.json
+28 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/vue-loader/package.json
+29 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/webpack/package.json
+30 verbose installManyTop reading scoped package data from /Users/ryanfarrell/Documents/word-frequency/node_modules/webpack-dev-server/package.json
+31 info package.json coffee-loader@0.7.2 No license field.
+32 info package.json fs@0.0.2 fs is also the name of a node core module.
+33 info package.json fs@0.0.2 No description
+34 info package.json fs@0.0.2 No repository field.
+35 info package.json jade-loader@0.8.0 No license field.
+36 info package.json vue-html-loader@1.0.0 No license field.
+37 verbose readDependencies loading dependencies from /Users/ryanfarrell/Documents/word-frequency/package.json
+38 verbose install json-loader is installed as 0.5.4
+39 silly cache add args [ 'json-loader', null ]
+40 verbose cache add spec json-loader
+41 silly cache add parsed spec { raw: 'json-loader',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'json-loader',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: '*',
+41 silly cache add   type: 'range' }
+42 silly addNamed json-loader@*
+43 verbose addNamed "*" is a valid semver range for json-loader
+44 silly addNameRange { name: 'json-loader', range: '*', hasData: false }
+45 silly mapToRegistry name json-loader
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/json-loader
+49 verbose addNameRange registry:https://registry.npmjs.org/json-loader not in flight; fetching
+50 verbose request uri https://registry.npmjs.org/json-loader
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 2:15:35 PM
+53 verbose request id 91a14d246dd718b7
+54 verbose etag "3WGASVJG3CKI3Q98LEWZ0L363"
+55 http request GET https://registry.npmjs.org/json-loader
+56 http 304 https://registry.npmjs.org/json-loader
+57 silly get cb [ 304,
+57 silly get   { date: 'Wed, 09 Dec 2015 19:13:26 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     'cache-control': 'max-age=60',
+57 silly get     etag: '"3WGASVJG3CKI3Q98LEWZ0L363"',
+57 silly get     age: '34',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-iad2129-IAD',
+57 silly get     'x-cache': 'HIT',
+57 silly get     'x-cache-hits': '1',
+57 silly get     'x-timer': 'S1449688406.330905,VS0,VE0',
+57 silly get     vary: 'Accept' } ]
+58 verbose etag https://registry.npmjs.org/json-loader from cache
+59 verbose get saving json-loader to /Users/ryanfarrell/.npm/registry.npmjs.org/json-loader/.cache.json
+60 silly addNameRange number 2 { name: 'json-loader', range: '*', hasData: true }
+61 silly addNameRange versions [ 'json-loader',
+61 silly addNameRange   [ '0.1.0',
+61 silly addNameRange     '0.1.1',
+61 silly addNameRange     '0.1.2',
+61 silly addNameRange     '0.1.3',
+61 silly addNameRange     '0.1.4',
+61 silly addNameRange     '0.1.5',
+61 silly addNameRange     '0.1.6',
+61 silly addNameRange     '0.1.7',
+61 silly addNameRange     '0.1.8',
+61 silly addNameRange     '0.2.0',
+61 silly addNameRange     '0.5.0',
+61 silly addNameRange     '0.5.1',
+61 silly addNameRange     '0.5.2',
+61 silly addNameRange     '0.5.3',
+61 silly addNameRange     '0.5.4' ] ]
+62 silly addNamed json-loader@0.5.4
+63 verbose addNamed "0.5.4" is a plain semver version for json-loader
+64 silly cache afterAdd json-loader@0.5.4
+65 verbose afterAdd /Users/ryanfarrell/.npm/json-loader/0.5.4/package/package.json not in flight; writing
+66 verbose afterAdd /Users/ryanfarrell/.npm/json-loader/0.5.4/package/package.json written
+67 silly install resolved [ { name: 'json-loader',
+67 silly install resolved     version: '0.5.4',
+67 silly install resolved     author: { name: 'Tobias Koppers @sokra' },
+67 silly install resolved     description: 'json loader module for webpack',
+67 silly install resolved     license: 'MIT',
+67 silly install resolved     repository:
+67 silly install resolved      { type: 'git',
+67 silly install resolved        url: 'git+https://github.com/webpack/json-loader.git' },
+67 silly install resolved     gitHead: '1409807e8e32c4f54248ffe44624cd12c84a6202',
+67 silly install resolved     bugs: { url: 'https://github.com/webpack/json-loader/issues' },
+67 silly install resolved     homepage: 'https://github.com/webpack/json-loader#readme',
+67 silly install resolved     _id: 'json-loader@0.5.4',
+67 silly install resolved     scripts: {},
+67 silly install resolved     _shasum: '8baa1365a632f58a3c46d20175fc6002c96e37de',
+67 silly install resolved     _from: 'json-loader@*',
+67 silly install resolved     _npmVersion: '2.10.1',
+67 silly install resolved     _nodeVersion: '0.12.4',
+67 silly install resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+67 silly install resolved     maintainers: [ [Object] ],
+67 silly install resolved     dist:
+67 silly install resolved      { shasum: '8baa1365a632f58a3c46d20175fc6002c96e37de',
+67 silly install resolved        tarball: 'http://registry.npmjs.org/json-loader/-/json-loader-0.5.4.tgz' },
+67 silly install resolved     directories: {},
+67 silly install resolved     _resolved: 'https://registry.npmjs.org/json-loader/-/json-loader-0.5.4.tgz',
+67 silly install resolved     readme: 'ERROR: No README data found!' } ]
+68 info install json-loader@0.5.4 into /Users/ryanfarrell/Documents/word-frequency
+69 info installOne json-loader@0.5.4
+70 verbose installOne of json-loader to /Users/ryanfarrell/Documents/word-frequency not in flight; installing
+71 verbose lock using /Users/ryanfarrell/.npm/_locks/json-loader-591e1948980ac63e.lock for /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+72 silly install write writing json-loader 0.5.4 to /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+73 verbose unbuild node_modules/json-loader
+74 info preuninstall json-loader@0.5.4
+75 info uninstall json-loader@0.5.4
+76 verbose unbuild rmStuff json-loader@0.5.4 from /Users/ryanfarrell/Documents/word-frequency/node_modules
+77 info postuninstall json-loader@0.5.4
+78 silly gentlyRm /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader is being purged from base /Users/ryanfarrell/Documents/word-frequency
+79 verbose gentlyRm don't care about contents; nuking /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+80 silly vacuum-fs purging /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+81 silly vacuum-fs quitting because other entries in /Users/ryanfarrell/Documents/word-frequency/node_modules
+82 verbose tar unpack /Users/ryanfarrell/.npm/json-loader/0.5.4/package.tgz
+83 verbose tar unpacking to /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+84 silly gentlyRm /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader is being purged
+85 verbose gentlyRm don't care about contents; nuking /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm extractEntry package.json
+88 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+89 silly gunzTarPerm extractEntry README.md
+90 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+91 silly gunzTarPerm extractEntry index.js
+92 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+93 verbose write writing to /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader/package.json
+94 info preinstall json-loader@0.5.4
+95 verbose readDependencies loading dependencies from /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader/package.json
+96 verbose readDependencies loading dependencies from /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader/package.json
+97 silly install resolved []
+98 verbose about to build /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+99 info build /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+100 info linkStuff json-loader@0.5.4
+101 silly linkStuff json-loader@0.5.4 has /Users/ryanfarrell/Documents/word-frequency/node_modules as its parent node_modules
+102 verbose linkBins json-loader@0.5.4
+103 verbose linkMans json-loader@0.5.4
+104 verbose rebuildBundles json-loader@0.5.4
+105 info install json-loader@0.5.4
+106 info postinstall json-loader@0.5.4
+107 verbose unlock done using /Users/ryanfarrell/.npm/_locks/json-loader-591e1948980ac63e.lock for /Users/ryanfarrell/Documents/word-frequency/node_modules/json-loader
+108 verbose validateInstall loading /Users/ryanfarrell/Documents/word-frequency/package.json for validation
+109 verbose stack Error: The package babel-runtime does not satisfy its siblings' peerDependencies requirements!
+109 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+109 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+109 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+109 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+109 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+109 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+109 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+109 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+109 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+109 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+110 verbose cwd /Users/ryanfarrell/Documents/word-frequency
+111 error Darwin 14.3.0
+112 error argv "node" "/usr/local/bin/npm" "install" "json-loader"
+113 error node v0.12.5
+114 error npm  v2.11.2
+115 error code EPEERINVALID
+116 error peerinvalid The package babel-runtime does not satisfy its siblings' peerDependencies requirements!
+116 error peerinvalid Peer vue-loader@7.2.0 wants babel-runtime@^5.8.0
+117 verbose exit [ 1, true ]
